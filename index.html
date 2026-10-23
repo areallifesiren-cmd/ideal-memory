@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="card">
+        <p class="eyebrow">Daily Laugh</p>
+        <h1>Random Joke Generator</h1>
+
+        <div id="joke-container" class="joke-container" aria-live="polite">
+          <p id="joke-setup" class="joke-setup">Press the button for a laugh.</p>
+          <p id="joke-punchline" class="joke-punchline"></p>
+        </div>
+
+        <button id="new-joke-btn" class="primary-btn" type="button">
+          Tell me a joke
+        </button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
